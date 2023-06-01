@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+    />
+    <title>xTool Creative Space</title>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+    <style>:root {
+  --page-loader-width: 17.067vw;
+  --page-loader-height: 17.067vw;
+  --page-loader-color: #27ae60;
+}
+.page-loader-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(2.667vw);
+  backdrop-filter: blur(2.667vw);
+}
+.loader-spinner {
+  width: var(--page-loader-width);
+  height: var(--page-loader-width);
+  position: relative;
+  margin: 26.667vw auto;
+}
+.loader-spinner .double-bounce1, .loader-spinner .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--page-loader-color);
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader-spinner-bounce 2s infinite ease-in-out;
+}
+.loader-spinner .double-bounce2 {
+  animation-delay: -1s;
+}
+@keyframes loader-spinner-bounce {
+  0%, 100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}</style>
+    <script type="module" crossorigin src="./assets/index-83a10b2e.js"></script>
+    <link rel="modulepreload" crossorigin href="./chunk/xcs-vue-family-70642f71.js">
+    <link rel="modulepreload" crossorigin href="./chunk/index-55948043.js">
+    <link rel="modulepreload" crossorigin href="./chunk/xcs-canvas-5c2592d6.js">
+    <link rel="stylesheet" href="./assets/style-abc954e3.css">
+  </head>
+
+  <body>
+    <input
+      id="fileDialog"
+      type="file"
+      style="position: absolute; top: -99999px; visibility: hidden"
+    />
+    <!-- <div id="loaderTarget" class="page-loader-container">
+      <div class="loader-spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div> -->
+    <div id="app"></div>
+    
+  </body>
+</html>

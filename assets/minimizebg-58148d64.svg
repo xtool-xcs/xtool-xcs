@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>最小化背景</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="17.6815028%" y1="31.5498136%" x2="79.0701835%" y2="68.209639%" id="linearGradient-3">
+            <stop stop-color="#B6FAC5" stop-opacity="0.150622815" offset="0%"></stop>
+            <stop stop-color="#F2FBF4" stop-opacity="0.398601399" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Alpha1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="最小化背景">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="蒙版" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <polygon id="路径-2" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="-19.9838867 0.000641505396 21.1584194 0.000641505396 81 60 40.0156867 60"></polygon>
+        </g>
+    </g>
+</svg>
